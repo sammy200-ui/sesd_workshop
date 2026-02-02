@@ -1,6 +1,6 @@
-import App from "./app";
-import TodoRoutes from "./routes/todo.routes";
-import "dotenv/config";
+import App from "./app"
+import BookRoutes from "./routes/book.routes"
+import "dotenv/config"
 
-const app = new App([new TodoRoutes()]);
-app.startServer();
+const app = new App([new BookRoutes()])
+app.startServer()
